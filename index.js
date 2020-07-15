@@ -38,4 +38,4 @@ emojis = emojis.map(line => {
     return [emoji, parts]
 })
 
-fs.writeFileSync(path + "/emojis.json", JSON.stringify(emojis))
+fs.writeFileSync(path + "/emoji.json", JSON.stringify(emojis))
